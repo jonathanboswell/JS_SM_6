@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>DOM Practice</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- GA Campuses -->
+            <div class="col-xs-3">
+                <ul id="campuses" class="list-group">
+                    <li class="list-group-item active">Campuses</li>
+                    <li class="list-group-item">DC</li>
+                    <li class="list-group-item">NY</li>
+                    <li class="list-group-item">SF</li>
+                    <li class="list-group-item">LA</li>
+                    <li class="list-group-item">HK</li>
+                </ul>
+            </div>
+
+            <!-- Input Form -->
+            <div class="col-xs-9">
+                <form class="form form-inline">
+                    <input id="firstInput" class="form-control" />
+                    <button id="firstInputSubmit" class="btn btn-success" type="submit">Run button code</button>
+                </form>
+
+                <h3>How does it "behave" differently without a form tag?</h3>
+                <input id="secondInput" class="form-control" />
+                <button id="secondInputSubmit" class="btn btn-success">Run button code</button>
+            </div>
+
+            <!-- Various Hellos -->
+            <div class="col-xs-9" id="helloContainer">
+                <h1 id="helloStatic" class="alert alert-danger">Watchout world!</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

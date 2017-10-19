@@ -1,0 +1,15 @@
+body {
+    background-color: #DDD;
+    padding: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#localOutput, #output {
+    white-space: pre;
+    overflow-x: scroll;
+}
+
+
